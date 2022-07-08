@@ -40,7 +40,7 @@ __Bold__ and **bold**
 
 ### Ссылка
 
-[Google] (https://google.com)
+[Google](https://google.com)
 
 ---
 
@@ -69,7 +69,7 @@ __Bold__ and **bold**
 
 ### Изображение
 
-![Markdown] (https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)
+![Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)
 
 ---
 
@@ -87,7 +87,7 @@ ___
 
 ### Таблица
 
-Ресурс для простой [генерации таблиц] (https://www.tablesgenerator.com/markdown_tables)
+Ресурс для простой [генерации таблиц](https://www.tablesgenerator.com/markdown_tables)
 
 | **NAME** | **TYPE** | **DEFAULT** | **DESCRIPTION** |
 |:--------:|:--------:|:-----------:|:---------------:|
