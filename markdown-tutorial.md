@@ -3,29 +3,45 @@
 ---
 ---
 
-### Заголовок
+### Header
 
-# Head1
-## Head2
-### Head3
-#### Head4
-##### Head5
-##### Head6
+```
+# Head 1
+## Head 2
+### Head 3
+#### Head 4
+##### Head 5
+##### Head 6
+```
+*Example:*
 
+### Head 3
+#### Head 4
 ---
 
-### Выделение
+### Highlight
 
+```
 _Italic_ and *italic*
 
 __Bold__ and **bold**
 
 ~~Line throw~~
+```
+
+*Example:*
+
+_Bird_ and *bird*
+
+__Elephant__ and **elephant**
+
+~~Error~~
 
 ---
 
-### Список
+### List
 
+```
 * Item 1
 * Item 2
   * Item 2.1
@@ -35,18 +51,67 @@ __Bold__ and **bold**
 1. Item 
 2. Item
 3. Item
+```
+*Example:*
+
+Bulleted list
+
+* Section 1
+* Section 2
+  * Subsection 2.1
+  * Subsection 2.2
+* Section 3
+
+Numbered list
+
+1. MacBook Air 
+2. iPad
+3. iPhone
 
 ---
 
-### Ссылка
+### Link
+
+```
+[name link](address link)
+```
+*Example:*
 
 [Google](https://google.com)
 
 ---
 
-### Код
+### Code
 
-Я пишу слова и хочу выделить `команду`
+```
+Highlight word with block `word`
+```
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
+```
+
+*Example:*
+
+In the text
+
+I am writing words and want to highlight `command`
+
+Show code
 
 ```html
 <!DOCTYPE html>
@@ -67,35 +132,76 @@ __Bold__ and **bold**
 ```
 ---
 
-### Изображение
+### Image
+
+```
+![Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)
+```
+
+*Example:*
 
 ![Markdown](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/1200px-Markdown-mark.svg.png)
 
 ---
 
-### Цитата
+### Quote
+
+```
+> Whiskey is the best truth serum, it immediately shows who is lying and who is not. "Peaky Blinders".
+```
+*Example:*
 
 > Whiskey is the best truth serum, it immediately shows who is lying and who is not. "Peaky Blinders".
 
 ---
 
-### Линия
+### Line
+
+```
+***
+---
+___
+
+```
+
+*Example:*
 
 ***
 ---
 ___
 
-### Таблица
+---
 
-Ресурс для простой [генерации таблиц](https://www.tablesgenerator.com/markdown_tables)
+### Table
+
+```
+Resource for simple [table generation](https://www.tablesgenerator.com/markdown_tables)
 
 | **NAME** | **TYPE** | **DEFAULT** | **DESCRIPTION** |
 |:--------:|:--------:|:-----------:|:---------------:|
 | login    | string   | ''          |                 |
 | password | string   | ''          |                 |
 
-### Список дел
+```
+*Example:*
 
-* [x] Todo 1
-* [x] Todo 2
-* [ ] Todo 3
+| **NAME** | **TYPE** | **DEFAULT** | **DESCRIPTION** |
+|:--------:|:--------:|:-----------:|:---------------:|
+| login    | string   | ''          |                 |
+| password | string   | ''          |                 |
+
+---
+
+### To-do list
+
+```
+* [x] Item 1
+* [x] Item 2
+* [ ] Item 3
+```
+
+*Example:*
+
+* [x] To-do 1
+* [x] To-do 2
+* [ ] To-do 3
